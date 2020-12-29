@@ -29,7 +29,7 @@ https://github.com/meskarune/FFsearch
 >You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 >
 >About:<br>
-Some people say php is not the language to do a fulltextsearch and they are right ;-) but anyway: terraserver<span>.</span>de/search performs a realtime fulltext-search over spezified directorys including subdirectorys and returns a link and an extract of each file. htmlspecialchars are supported so a search for "über" will return documents having "&uuml;ber" as well as documents having "über". 
+Some people say php is not the language to do a fulltextsearch and they are right ;-) but anyway: terraserver<span>.</span>de/search performs a realtime fulltext-search over spezified directorys including subdirectorys and returns a link and an extract of each file. htmlspecialchars are supported so a search for "über" will return documents having "\&uuml;ber" as well as documents having "über". 
 >
 >Changes:<br>
 \- Added some more features like 'match case' and the possibility to limit the number of results.
